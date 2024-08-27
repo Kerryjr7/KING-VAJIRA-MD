@@ -3,7 +3,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
+global.owner = process.env.OWNER_NUMBER.split("254113545599")
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'sam@secktor.live'
@@ -11,12 +11,12 @@ global.github = 'https://github.com/vajirabot1/KING-VAJIRA-MD'
 global.location = 'Sultanpur IN'
 global.gurl = 'https://instagram.com/' // add your username
 global.sudo = process.env.SUDO || '2347039570336,923466319114'
-global.devs = '2347039570336';
+global.devs = '254113545599';
 global.website = 'https://github.com/vajirabot1/KING-VAJIRA-MD' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/09ab24679fb3a297a8905.jpg'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? 'VAJIRA 𝐁𝐨𝐭' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'excel' : process.env.OWNER_NAME,
+  botname:   process.env.BOT_NAME === undefined ? 'KERRY GPT' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'KERRY (HIM)' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
   author:  process.env.PACK_INFO.split(";")[0] === undefined ? 'vajira' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
@@ -34,7 +34,7 @@ module.exports = {
   antilink:  process.env.ANTILINK_VALUES === undefined ? 'chat.whatsapp.com' : process.env.ANTILINK_VALUES,
   antilinkaction: process.env.ANTILINK_ACTION === undefined ? 'remove' : process.env.ANTILINK_ACTION,
   BRANCH: 'main', 
-  ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? '' : process.env.ALIVE_MESSAGE,
+  ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? 'RESPECT HIM , DONT BE A CUNT' : process.env.ALIVE_MESSAGE,
   autobio:  process.env.AUTO_BIO === undefined ? true : process.env.AUTO_BIO,
   afk:  process.env.AFK ||true,
   OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? false : process.env.OPENAI_API_KEY,
